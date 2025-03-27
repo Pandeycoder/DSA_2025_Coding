@@ -14,7 +14,6 @@ public class Square {
 			for (int col = 0; col < n; col++) {
 
 				System.out.print(" *");
-
 			}
 
 			System.out.println();
