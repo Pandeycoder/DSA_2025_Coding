@@ -16,7 +16,7 @@ public class Diamond {
 			System.out.println();
 		}
 		
-		int count1=4*4+1;
+		int count1=9;
 		for (int row = 4; row >= 0; row -= 1) {
 			for (int space = 0; space < 4 - row; space += 1) {
 				System.out.print("  ");
