@@ -11,7 +11,9 @@ public class Fast_Exponential {
 
 	public static void checkFastExpon(int a, int b) {
 
-		// 2^3 // 3^5
+		// 2^3 //0010 0011 3^5
+
+		// 2 &
 
 	}
 }
