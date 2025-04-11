@@ -5,7 +5,7 @@ public class Max_Num_In_Array {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int arr[] = { 2, 4, 1, 6, 8, 9, 1 };
+		int arr[] = { 2, 4, 1, 6, 8, 9, -1 };
 		System.out.println(" max num in array: " + maxNum(arr, 7));
 
 	}
