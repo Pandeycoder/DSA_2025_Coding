@@ -15,6 +15,7 @@ public class Sort_Element_With_Array {
 		System.out.println(list);
 		Collections.sort(list, Collections.reverseOrder());
 		System.out.println(list);
+		System.out.println(list.contains(list));
 	}
 
 	public static ArrayList<Integer> sortElement(ArrayList<Integer> list) {
