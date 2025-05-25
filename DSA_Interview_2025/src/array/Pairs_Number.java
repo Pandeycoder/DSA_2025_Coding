@@ -29,6 +29,9 @@ public class Pairs_Number {
 			for (int j = i + 1; j < list.size(); j++) {
 				if(element+list.get(j)==sum)
 				 System.out.print(" (" + list.get(i) + " , " + list.get(j) + " )");
+				if(list.get(i)+list.get(j)==10)
+
+				System.out.print(" (" + list.get(i) + " , " + list.get(j) + " )");
 
 			}
 			System.out.println();

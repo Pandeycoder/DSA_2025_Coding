@@ -12,37 +12,33 @@ public class Reverse_ArrayList {
 		list.add(12);
 		list.add(134);
 		list.add(45);
-		System.out.println(list);
+		System.out.println("Before rev "+list);
 		ArrayList<Integer> list1 = printReverse(list);
+		System.out.println("after rev arr " + list1);
+
 
 	}
 
 	public static ArrayList<Integer> printReverse(ArrayList<Integer> arr) {
 
-		
-		int start=0; 
-		int end=arr.size()-1;
-		System.out.println(" start "+start+" end "+end);
-		
-		while(start<=end)
-		{
-			int temp =arr.get(start);  //  10
-			
-			
-			arr.set(end, arr.get(start));  //10
-			
-			arr.set(start, arr.get(end)); 
-			
+		int start = 0;
+		int end = arr.size() - 1;
+
+		while (start <= end) {
+			swapNum(arr, start, end);
 			start++;
 			end--;
 		}
-		System.out.println("arr "+arr);
-			
-			
 		
 		return arr;
 
 	}
 
-}
+	public static void swapNum(ArrayList<Integer> arr, int start, int end) {
 
+		int temp = arr.get(start); // 10
+		arr.set(start, arr.get(end));
+		arr.set(end, temp);
+	}
+
+}
