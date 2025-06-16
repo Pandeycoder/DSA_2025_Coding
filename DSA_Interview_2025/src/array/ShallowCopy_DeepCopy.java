@@ -3,7 +3,6 @@ package array;
 public class ShallowCopy_DeepCopy {
 	
 	
-	Student s1=new Student();
 	
 
 }
